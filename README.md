@@ -1,2 +1,2 @@
 # ferialPORTFOLIO
-Une maquette BS5 s'un portfolio
+Une maquette Bootstrap 5 d'un port-folio
