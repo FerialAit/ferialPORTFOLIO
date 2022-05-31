@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Férial PORTFOLIO</title>
+  <!-- Bootstrap 5 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- Mes styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+        <!-- navigation principale -->
+        <!-- fixed top pour fixer la nav en hautr de page -->
+        <!-- navbar-expand-lg pour la faire apparaitre sur un écran large  -->
+  <nav class="navbar fixed-top navbar-expand-lg bg-light">
+    <div class="container-fluid">
+        <!-- collapse effondrement masquer afficher le bouton ///  -->
+     <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#ma-nav" aria-controls="ma-nav" aria-expanded="false" 
+        aria-label="Toggle navigation">
+         <!-- aria-controls accessibilité aria-expanded="false" on démarre avec le menu qui n'est pas étendu on démarre à false -->
+         <!-- navbar-toggler-icon un svg qui fait le boutton // toggler = bascule -->
+       <span class="navbar-toggler-icon"></span>
+     </button>
+         <!-- collapse navbar-collapse pour la faire apparaître ou non //  attention c'est le même id que dans data-target -->
+      <div class="collapse navbar-collapse" id="ma-nav"> 
+         <!-- ul>li*5>a -->
+         <!-- un  navbar-nav pour la ul /// nav-item pour li // nav-link pour les a -->
+        <ul class="navbar-nav">
+          <li class="nav-item"><a href="#accueil" class="nav-link">Accueil</a></li>
+          <li class="nav-item"><a href="#portfolio" class="nav-link">Portefolio</a></li>
+          <li class="nav-item"><a href="#a-propos" class="nav-link">A propos</a></li>
+          <li class="nav-item"><a href="#mes-services" class="nav-link">Mes services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contactez-moi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+         <!-- en-tete -->
+  <header id="accueil" class="bg-secondary text-white">
+    <img src="img/man.svg" alt="Férial Ait-Idir Développeuse web  Colombbus">
+    <h1>Salut, bienvenue sur mon Portfolio </h1>
+    <p>Je suis développeuse Web a Colombbus</p>
+  </header>
+
+        <!-- section 1 portfolio -->
+  <section id="portfolio">
+    <h2>Mon portfolio</h2>
+
+      <!-- react twitch -->
+    <img src="img/ReactTwitch.png" alt="Férial Ait-Idir react twitch">
+
+      <!-- animation -->
+    <img src="img/animation.jpg" alt="Férial Ait-Idir animation ">
+
+      <!-- app meteo -->
+    <img src="img/MeteoApp.png" alt="Férial Ait-Idir app meteo">
+
+      <!-- site menu -->
+    <img src="img/SiteMenu.png" alt="Férial Ait-Idir menu du site">
+
+      <!-- site pour particuliers -->
+    <img src="img/SiteResPic.jpg" alt="Férial Ait-Idir site pour particuliers">
+
+      <!-- visualisation des données -->
+    <img src="img/Visu.jpg" alt="Férial ait idir visualisation des données">
+
+      <!-- JS -->
+    <img src="img/js.jpg" alt="Férial Ait-Idir javaScript">
+
+      <!-- grid -->
+    <img src="img/grid.jpg" alt="Férial Ait-Idir Grid">
+
+      <!-- bulma -->
+    <img src="img/bulma.jpg" alt="Férial Ait-Idir framework bulma">
+
+
+  </section>
+      <!-- fin de portfolio -->
+
+      <!-- section 2 a propos -->
+  <section id="a-propos">
+    <h2>A propos</h2>
+  </section>
+      <!-- fin de section a propos -->
+
+      <!-- section 3 mes services -->
+  <section id="mes-services">
+    <h2>Mes services</h2>
+  </section>
+      <!-- fin section mes services -->
+
+      <!-- section 4 contact -->
+  <section id="contact">
+    <h2>contactez-moi</h2>
+  </section>
+      <!-- fin section contact -->
+
+      <!-- pied de page -->
+  <footer>
+    <p>Tous droit revervé a Ohfefe boss du 94 brrrrr</p>
+  </footer>
+      <!-- fin pied de page  -->
+
+
+
+      <!-- JS et Popper de Bootstrap 5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
